@@ -5,8 +5,7 @@ import {
 } from './types';
 
 export const getBestSellingBooks = (data) => async dispatch => {
-    const api_key = 'kejAhwRat3GkPqI4tLiCaU2AHSzzfwYu';
-    const url = `https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=${api_key}`;
+    const url = `https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=${process.env.REACT_APP_NYT_API_KEY}`;
     try {
         await axios.get(url, data)
             .then(res =>
