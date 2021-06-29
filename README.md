@@ -7,6 +7,7 @@ Thanks for taking your time to reading this.
 To run this project,
 
 - Clone the repo.
+- Setup the `env` from the `env_sample` given. Please add your `API_KEY` for the New York Times API.
 - Run `npm install` inside the project directory .
 - Run `npm start`
 
