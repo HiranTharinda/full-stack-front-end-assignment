@@ -1,5 +1,3 @@
-# Full-Stack Developer, Surge Global
-
 ## Front-end Assignment
 
 Thanks for taking your time to reading this.
